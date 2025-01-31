@@ -1,7 +1,7 @@
 {
   "name": "@ngmazamat/frodopath",
-  "version": "0.0.3",
-  "description": "Run a program with env vars specified",
+  "version": "0.0.5",
+  "description": "Frodo Path to Mount Doom - ConsoleLog Programm",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
