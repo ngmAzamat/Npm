@@ -1,4 +1,4 @@
-export function frodo(a) {
+export function frodo() {
   console.log("Хоббитон");
   console.log("Могильные Холмы");
   console.log("Бри");
@@ -15,5 +15,4 @@ export function frodo(a) {
   console.log("Логово Шелоб");
   console.log("Кирит Унгол");
   console.log("Роковая Гора");
-  return a;
 }

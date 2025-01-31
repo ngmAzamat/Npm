@@ -1,12 +1,43 @@
 {
   "name": "@ngmazamat/frodopath",
-  "module": "src/index.js",
-  "version": "0.0.2",
-  "type": "module",
-  "devDependencies": {
-    "@types/bun": "latest"
+  "version": "0.0.3",
+  "description": "Run a program with env vars specified",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "run": "dist/run.js"
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+  "type": "module",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "commit": "tsc; git add . ; git commit -a -m minor; git push",
+    "alga": "bash publish.sh"
+  },
+  "keywords": [
+    "Lord Of The Rings",
+    "Frodo",
+    "Tolkien",
+    "Beggins",
+    "Hobbit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngmaibulat/runWithEnv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ngmaibulat/runWithEnv/issues"
+  },
+  "homepage": "https://github.com/ngmaibulat/runWithEnv#readme",
+  "author": "Aibulat",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.12.0",
+    "esbuild": "^0.24.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
   }
 }
