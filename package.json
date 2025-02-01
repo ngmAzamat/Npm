@@ -1,6 +1,6 @@
 {
   "name": "@ngmazamat/frodopath",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Frodo Path to Mount Doom - ConsoleLog Programm",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,12 +22,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngmAzamat/Lotr-Programm.git"
+    "url": "git+https://github.com/ngmAzamat/Npm.git"
   },
   "bugs": {
-    "url": "https://github.com/ngmAzamat/Lotr-Programm"
+    "url": "https://github.com/ngmAzamat/Npm"
   },
-  "homepage": "https://github.com/ngmAzamat/Lotr-Programm",
+  "homepage": "https://github.com/ngmAzamat/Npm",
   "author": "Azamat",
   "license": "MIT",
   "devDependencies": {
