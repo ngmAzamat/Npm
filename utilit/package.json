@@ -1,14 +1,14 @@
 {
   "name": "@ngmazamat/console-log",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "onsoleLog Programm",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "bin": {
     "Console": "index.js"
   },
   "type": "module",
-  "module": "src/index.ts",
+  "module": "index.ts",
   "scripts": {
     "test": "node --test",
     "build": "tsc",
