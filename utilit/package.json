@@ -1,0 +1,39 @@
+{
+  "name": "@ngmazamat/console-log",
+  "version": "0.0.1",
+  "description": "onsoleLog Programm",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "Console": "index.js"
+  },
+  "type": "module",
+  "module": "src/index.ts",
+  "scripts": {
+    "test": "node --test",
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "firstpublish": "npm publish --access public",
+    "publish": "tsc; git add . ; git commit -a -m 'commit'; git push; npm publish",
+    "alga": "bash publish.sh"
+  },
+  "keywords": [
+    "Test",
+    "Console-log"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngmAzamat/Npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ngmAzamat/Npm/utilit"
+  },
+  "homepage": "https://github.com/ngmAzamat/Npm/utilit",
+  "author": "Azamat",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.12.0",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {}
+}
