@@ -1,7 +1,7 @@
 {
   "name": "@ngmazamat/console-log",
   "version": "0.0.2",
-  "description": "onsoleLog Programm",
+  "description": "consoleLog Programm",
   "main": "index.js",
   "types": "index.d.ts",
   "bin": {
