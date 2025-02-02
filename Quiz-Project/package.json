@@ -1,0 +1,34 @@
+{
+  "name": "@ngmazamat/quiz",
+  "version": "1.0.5",
+  "description": "Quiz",
+  "main": "new.js",
+  "bin": {
+    "quiz": "new.js"
+  },
+  "type": "module",
+  "module": "new.js",
+  "scripts": {
+    "test": "node --test",
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "keywords": [
+    "Test",
+    "Quiz"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngmAzamat/Npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ngmAzamat/Npm/Quiz-Project"
+  },
+  "homepage": "https://github.com/ngmAzamat/Npm/Quiz-Project",
+  "author": "Azamat",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.12.0",
+    "typescript": "^5.7.3"
+  }
+}

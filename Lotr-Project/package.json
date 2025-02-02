@@ -25,9 +25,9 @@
     "url": "git+https://github.com/ngmAzamat/Npm.git"
   },
   "bugs": {
-    "url": "https://github.com/ngmAzamat/Npm"
+    "url": "https://github.com/ngmAzamat/Npm/Lotr-Project"
   },
-  "homepage": "https://github.com/ngmAzamat/Npm",
+  "homepage": "https://github.com/ngmAzamat/Lotr-Project",
   "author": "Azamat",
   "license": "MIT",
   "devDependencies": {

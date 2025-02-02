@@ -1,6 +1,6 @@
 {
   "name": "@ngmazamat/console-log",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "consoleLog Programm",
   "main": "index.js",
   "types": "index.d.ts",
@@ -14,7 +14,6 @@
     "build": "tsc",
     "build:watch": "tsc -w",
     "firstpublish": "npm publish --access public",
-    "publish": "tsc; git add . ; git commit -a -m 'commit'; git push; npm publish",
     "alga": "bash publish.sh"
   },
   "keywords": [
@@ -26,9 +25,9 @@
     "url": "git+https://github.com/ngmAzamat/Npm.git"
   },
   "bugs": {
-    "url": "https://github.com/ngmAzamat/Npm/utilit"
+    "url": "https://github.com/ngmAzamat/Npm/ConsoleLog-Utilit"
   },
-  "homepage": "https://github.com/ngmAzamat/Npm/utilit",
+  "homepage": "https://github.com/ngmAzamat/Npm/ConsoleLog-Utilit",
   "author": "Azamat",
   "license": "MIT",
   "devDependencies": {
