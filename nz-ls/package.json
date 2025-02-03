@@ -1,0 +1,39 @@
+{
+  "name": "@ngmazamat/nz-ls",
+  "version": "0.0.1",
+  "description": "Program Like Ls",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "nz-ls": "dist/index.js"
+  },
+  "type": "module",
+  "module": "src/index.ts",
+  "scripts": {
+    "test": "node --test",
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "firstpublish": "npm publish --access public",
+    "alga": "bash publish.sh"
+  },
+  "keywords": [
+    "ls"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngmAzamat/Npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ngmAzamat/Npm/nz-ls"
+  },
+  "homepage": "https://github.com/ngmAzamat/Npm/nz-ls",
+  "author": "Azamat",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.12.0",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "commander": "^13.1.0"
+  }
+}
