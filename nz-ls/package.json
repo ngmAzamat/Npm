@@ -1,6 +1,6 @@
 {
   "name": "@ngmazamat/nz-ls",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Program Like Ls",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,7 +14,8 @@
     "build": "tsc",
     "build:watch": "tsc -w",
     "firstpublish": "npm publish --access public",
-    "alga": "bash publish.sh"
+    "alga": "bash publish.sh",
+    "publish": "npm publish"
   },
   "keywords": [
     "ls"
