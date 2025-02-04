@@ -1,10 +1,3 @@
-# @ngmazamat/nz-ls
-To run:
-
-```bash
-bun run src/index.ts
-```
-
 ### Install
 
 ```bash
@@ -17,7 +10,8 @@ nz-ls --version
 ```bash
 nz-ls --help
 ```
-```
+
+```bash
 Usage: nz-ls [options] [directory]
 
 Arguments:

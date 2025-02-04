@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 import { readdir } from "node:fs/promises";
 import { program } from "commander";
 program
