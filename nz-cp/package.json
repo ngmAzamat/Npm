@@ -1,0 +1,41 @@
+{
+  "name": "@ngmazamat/nz-cp",
+  "version": "0.0.1",
+  "description": "Program Like Ls",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "nz-ls": "dist/index.js"
+  },
+  "type": "module",
+  "module": "src/index.ts",
+  "scripts": {
+    "test": "node --test",
+    "build": "tsup",
+    "build:watch": "tsup -w",
+    "firstpublish": "npm publish --access public",
+    "alga": "bash publish.sh",
+    "publish": "npm publish"
+  },
+  "keywords": [
+    "ls"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngmAzamat/Npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ngmAzamat/Npm/tree/main/nz-cp"
+  },
+  "homepage": "https://github.com/ngmAzamat/Npm/tree/main/nz-cp",
+  "author": "Azamat",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.12.0",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "commander": "^13.1.0"
+  }
+}
